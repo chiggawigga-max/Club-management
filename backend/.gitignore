@@ -1,5 +1,6 @@
+backend/
 node_modules/
 .env
-.env.local
-.env.development
-.env.production
+.env.example
+.gitignore
+package.json
