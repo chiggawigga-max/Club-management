@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import DashboardPage from './pages/DashboardPage';
+import DashboardPage from './pages/DashBoardPage';
 import MembersPage from './pages/MembersPage';
 import EventsPage from './pages/EventsPage';
 import VolunteerPage from './pages/VolunteerPage.jsx';
