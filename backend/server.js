@@ -14,7 +14,9 @@ connectDB();
 const app = express();
 app.use(cors());
 app.use(express.json());
-
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', service: 'club-management-api' });
 });
